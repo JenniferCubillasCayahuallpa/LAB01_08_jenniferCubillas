@@ -1,0 +1,12 @@
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\domain\port\out\PedidoRepositoryPort.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\infrastructure\adapter\in\rest\PedidoController.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\infrastructure\adapter\out\client\ProductoWebClientAdapter.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\infrastructure\adapter\out\persistence\PedidoJpaRepository.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\MsPedidosApplication.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\infrastructure\adapter\out\persistence\PedidoEntity.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\domain\model\Pedido.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\domain\port\in\PedidoServicePort.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\infrastructure\adapter\out\persistence\PedidoPersistenceAdapter.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\domain\port\out\ProductoClientPort.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\domain\model\ProductoResponse.java
+C:\Users\lriva\OneDrive\Documentos\LAB01_08_jenniferCubillas\ms-pedidos\src\main\java\com\lab\pedidos\application\usecase\PedidoUseCase.java

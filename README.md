@@ -1,10 +1,21 @@
-# LAB01_08_jenniferCubillas
+# LAB01_LuisRivas33 - Proyecto de Microservicios
 
 ## Descripción
 Proyecto de microservicios con Spring Boot y PostgreSQL.  
 Compuesto por dos servicios independientes que se comunican vía REST.
 
+---
+
 ## Arquitectura
+
+```
+ms-productos (puerto 8081)  ←── REST ───  ms-pedidos (puerto 8082)
+      │                                          │
+      ▼                                          ▼
+ db_productos (PostgreSQL)              db_pedidos (PostgreSQL)
+```
+
+---
 
 ## Microservicios
 
@@ -50,6 +61,10 @@ CREATE DATABASE db_productos;
 CREATE DATABASE db_pedidos;
 ```
 
+Las tablas se crean automáticamente al iniciar cada servicio.
+
+---
+
 ## Cómo ejecutar
 
 ### ms-productos
@@ -62,6 +77,13 @@ mvn spring-boot:run
 ```bash
 cd ms-pedidos
 mvn spring-boot:run
+```
+
+> ⚠️ Iniciar primero `ms-productos` antes que `ms-pedidos`.
+
+---
+
+## Ejemplos de uso con curl
 
 ### Crear un pedido
 ```bash
@@ -80,3 +102,11 @@ curl http://localhost:8081/api/productos
 curl -X PATCH http://localhost:8082/api/pedidos/1/estado \
   -H "Content-Type: application/json" \
   -d '{"status": "COMPLETED"}'
+```
+
+---
+
+## Datos iniciales
+Al iniciar `ms-productos`, se insertan automáticamente:
+- Laptop → S/. 2500.00 (stock: 10)
+- Mouse  → S/. 50.00   (stock: 40)
